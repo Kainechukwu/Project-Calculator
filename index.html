@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Projulator</title>
+  <!--font style-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
+  <!--css style sheets-->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!--Bootstrap stylesheet-->
+  <!-- bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+  <div class="calculator container">
+    <form class="calcBox">
+      <div class="Header col-lg-9">
+        <h1>Calulator</h1>
+        <input id="viewPort" type="text" name="displayResult" maxlength="9" value="">
+
+        <div class="calculator-keys">
+          <div class="row col-lg-12 lane">
+            <input data-action="modulo" class="btn btn-lg % operator" type="button" value=%>
+            <input data-action="clear" class="btn btn-lg CE" type="button" value=CE>
+            <input data-action="cancel" class="btn btn-lg C" type="button" value=C>
+            <input data-action="delete" class="btn btn-lg del operator" type="button" value="del">
+          </div>
+          <div class="row col-lg-12 lane">
+            <input data-action="cubeRoot" class="btn btn-lg cube operator" type="button" value=cube>
+            <input data-action="square" class="btn btn-lg sqr operator" type="button" value=sqr>
+            <input data-action="squareRoot" class="btn btn-lg sqrt operator" type="button" value=sqrt>
+            <input data-action="divide" class="btn btn-lg / operator" type="button" value="/">
+          </div>
+          <div class="row col-lg-12 lane">
+            <input class="btn btn-lg 7 numBtn" type="button" value="7">
+            <input class="btn btn-lg 8 numBtn" type="button" value="8">
+            <input class="btn btn-lg 9 numBtn" type="button" value="9">
+            <input data-action="multiply" class="btn btn-lg x operator" type="button" value="x">
+          </div>
+          <div class="row col-lg-12 lane">
+            <input class="btn btn-lg 4 numBtn" type="button" value="4">
+            <input class="btn btn-lg 5 numBtn" type="button" value="5">
+            <input class="btn btn-lg 6 numBtn" type="button" value="6">
+            <input data-action="subtract" class="btn btn-lg - operator" type="button" value="-">
+          </div>
+          <div class="row col-lg-12 lane">
+            <input class="btn btn-lg 1 numBtn" type="button" value="1">
+            <input class="btn btn-lg 2 numBtn" type="button" value="2">
+            <input class="btn btn-lg 3 numBtn" type="button" value="3">
+            <input data-action="add" class="btn btn-lg + operator" type="button" value="+">
+          </div>
+          <div class="row col-lg-12 lane">
+            <input data-action="polar" class="btn btn-lg +/- polar" type="button" value=+/->
+            <input class="btn btn-lg 0 numBtn" type="button" value=0>
+            <input data-action="decimal" class="btn btn-lg dec" type="button" value=".">
+            <input id="equals" data-action="calculate" class="btn btn-lg =" type="button" value="=">
+          </div>
+        </div>
+      </div>
+    </form>
+
+
+  </div>
+
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

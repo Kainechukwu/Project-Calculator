@@ -1,0 +1,71 @@
+body{
+  background-color: #797a7e;
+  text-align: left;
+}
+
+h1{
+  padding: 2rem 0 2rem ;
+}
+input[type = text]{
+  text-align: right;
+  margin-bottom: 20px;
+  width: 88%;
+  padding: 10px 4px;
+  /* border: none; */
+  /* font-size: 50rem; */
+  font-size: 40px;
+  font-weight: 600;
+  /* font-size: 3.5rem; */
+  border-radius: 4px;
+  border: 2px solid white;
+}
+
+#viewPort {
+  font-weight: 600;
+
+}
+
+
+input[type = button] {
+  background-color: #f6f4e6;
+  color: black;
+  /* padding: 10px 40px; */
+  margin: 2px 2px;
+  display: inline-block;
+  border: none;
+  border-radius: 2px;
+  table-layout: fixed;
+  width: 23%;
+  font-weight: 600;
+  transition-duration: 0.4s;
+}
+input[type = button]:hover{
+  background-color: #cbaf87;
+  color: white;
+}
+
+.calcBox{
+  width: 50%;
+  margin: 40px auto 40px;
+}
+
+.Header{
+  margin-left: 18px;
+  width: 60%;
+  padding-right: 90px;
+}
+
+.calculator-keys{
+  padding-left: 0px;
+  height: 50%;
+}
+
+.lane{
+  width: 100%;
+  padding-right: 0px;
+}
+
+/* .btnHover{
+  background-color: blue;
+  font-style: 16px;
+} */
